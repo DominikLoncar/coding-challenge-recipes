@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Logo, Navbar, TitleAndSearchBar } from '../components/index';
+import { Logo, Navbar, TitleAndSearchBar, Hero } from '../components/index';
 
 const IndexPage = () => {
   return (
@@ -11,6 +11,7 @@ const IndexPage = () => {
         </div>
         <div className="col-start-2 col-end-7">
           <TitleAndSearchBar />
+          <Hero />
         </div>
       </div>
     </main>
