@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="bg-light-gray text-dark-gray">
       <ul className="flex flex-col gap-6">
-        <li>
+        <li className="hover:text-dark-green">
           <Link to="/">Homepage</Link>
         </li>
         <li>
