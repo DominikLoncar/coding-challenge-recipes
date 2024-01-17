@@ -12,6 +12,7 @@ module.exports = {
         'dark-gray': '#647181',
         'midnight-blue': '#080F1D',
         porcelain: '#F4F5F6',
+        aluminium: '#AAB1BB',
       },
     },
   },
