@@ -4,7 +4,11 @@ import { Title, Button } from './index';
 export default function Hero() {
   return (
     <div>
-      <Title text="Poached eggs with broccoli and avocado" />
+      <Title>
+        Poached eggs with
+        <br />
+        broccoli and avocado
+      </Title>
       <Button text="View Recipe" />
     </div>
   );
