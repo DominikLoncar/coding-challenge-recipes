@@ -5,9 +5,11 @@ export default function Hero() {
   return (
     <div>
       <Title>
-        Poached eggs with
-        <br />
-        broccoli and avocado
+        <strong>
+          Poached eggs with
+          <br />
+          broccoli and avocado
+        </strong>
       </Title>
       <Button text="View Recipe" />
     </div>
