@@ -1,9 +1,7 @@
 import * as React from 'react';
 import Navbar from '../components/Navbar';
 import Logo from '../components/Logo';
-import Title from '../components/Title';
-import SearchBar from '../components/SearchBar';
-import TitleAndSearchBar from '../components/TitleAndSearchBar';
+import { TitleAndSearchBar } from '../components/index';
 
 const IndexPage = () => {
   return (
