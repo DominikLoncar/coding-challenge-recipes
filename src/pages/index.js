@@ -7,10 +7,16 @@ import SearchBar from '../components/SearchBar';
 const IndexPage = () => {
   return (
     <main>
-      <Logo />
-      <Navbar />
-      <Title />
-      <SearchBar />
+      <div className="grid grid-cols-2">
+        <div>
+          <Logo />
+          <Navbar />
+        </div>
+        <div>
+          <Title />
+          <SearchBar />
+        </div>
+      </div>
     </main>
   );
 };
