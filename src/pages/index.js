@@ -1,9 +1,11 @@
 import * as React from 'react';
 import Navbar from '../components/Navbar';
+import Logo from '../components/Logo';
 
 const IndexPage = () => {
   return (
     <main>
+      <Logo />
       <Navbar />
     </main>
   );
