@@ -28,6 +28,7 @@ export function HeroImg() {
     <StaticImage
       src="../images/hero-img.png"
       alt="A meal representation for the hero section"
+      placeholder="blurred"
     />
   );
 }
