@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 export default function Navbar() {
   return (
     <div>
-      <ul>
+      <ul className="flex flex-col gap-6">
         <li>
           <Link to="/">Homepage</Link>
         </li>
