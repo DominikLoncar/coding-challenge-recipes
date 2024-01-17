@@ -13,6 +13,7 @@ module.exports = {
         'midnight-blue': '#080F1D',
         porcelain: '#F4F5F6',
         aluminium: '#AAB1BB',
+        'dark-green': '#089B12',
       },
     },
   },
