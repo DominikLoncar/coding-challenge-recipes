@@ -1,5 +1,11 @@
 import * as React from 'react';
-import { Logo, Navbar, TitleAndSearchBar, Hero } from '../components/index';
+import {
+  Logo,
+  Navbar,
+  TitleAndSearchBar,
+  Hero,
+  Card,
+} from '../components/index';
 
 const IndexPage = () => {
   return (
@@ -12,6 +18,7 @@ const IndexPage = () => {
         <div className="col-start-2 col-end-7 mt-12 mx-36">
           <TitleAndSearchBar />
           <Hero />
+          <Card />
         </div>
       </div>
     </main>
