@@ -13,8 +13,10 @@ const IndexPage = () => {
           <Navbar />
         </div>
         <div className="col-start-2 col-end-7">
-          <Title />
-          <SearchBar />
+          <div className="grid grid-cols-2">
+            <Title />
+            <SearchBar />
+          </div>
         </div>
       </div>
     </main>
