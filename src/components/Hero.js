@@ -11,6 +11,7 @@ export default function Hero() {
           broccoli and avocado
         </strong>
       </Title>
+      <div className="my-5" />
       <Button text="View Recipe" />
     </div>
   );
