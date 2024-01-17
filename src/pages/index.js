@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Logo from '../components/Logo';
 import Title from '../components/Title';
 import SearchBar from '../components/SearchBar';
+import TitleAndSearchBar from '../components/TitleAndSearchBar';
 
 const IndexPage = () => {
   return (
