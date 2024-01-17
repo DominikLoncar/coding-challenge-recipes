@@ -4,3 +4,4 @@ export { default as NavbarItem } from './NavbarItem';
 export { default as Title } from './TitleAndSearchBar';
 export { default as SearchBar } from './TitleAndSearchBar';
 export { default as TitleAndSearchBar } from './TitleAndSearchBar';
+export { default as Button } from './Button';
