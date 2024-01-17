@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 export default function Navbar() {
   return (
-    <div className="bg-gray ">
+    <div className="bg-gray text-dark-gray">
       <ul className="flex flex-col gap-6">
         <li>
           <Link to="/">Homepage</Link>
