@@ -7,12 +7,12 @@ import SearchBar from '../components/SearchBar';
 const IndexPage = () => {
   return (
     <main>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-6 h-full">
         <div>
           <Logo />
           <Navbar />
         </div>
-        <div>
+        <div className="col-start-2 col-end-7">
           <Title />
           <SearchBar />
         </div>
