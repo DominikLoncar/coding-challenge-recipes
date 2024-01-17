@@ -11,6 +11,7 @@ module.exports = {
         'light-gray': '#F4F5F6',
         'dark-gray': '#647181',
         'midnight-blue': '#080F1D',
+        porcelain: '#F4F5F6',
       },
     },
   },
