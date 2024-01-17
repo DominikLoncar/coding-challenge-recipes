@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 
 export default function Card({
   title = 'Lorem Ipsum',
@@ -17,6 +18,18 @@ export default function Card({
           <span>{tag}</span>
         ))}
       </div>
+    </div>
+  );
+}
+
+export function CardImg() {
+  return (
+    <div className="max-w-96">
+      <StaticImage
+        src="../images/peanut-butter-cheesecake.png"
+        alt="Meal"
+        placeholder="blurred"
+      />
     </div>
   );
 }
