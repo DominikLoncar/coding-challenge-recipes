@@ -6,7 +6,7 @@ export default function Logo() {
       <div className="text-porcelain">
         <strong>Meal Deal</strong>
       </div>
-      <div>Recipes for healthy life</div>
+      <div className="text-aluminium">Recipes for healthy life</div>
     </div>
   );
 }
