@@ -29,22 +29,9 @@ export default function Navbar() {
   return (
     <div className="bg-light-gray text-dark-gray">
       <ul className="flex flex-col gap-6">
-        <NavbarItem link="" />
-        <li className="hover:text-dark-green">
-          <Link to="/">Homepage</Link>
-        </li>
-        <li>
-          <Link to="/">Recipes</Link>
-        </li>
-        <li>
-          <Link to="/">Community</Link>
-        </li>
-        <li>
-          <Link to="/">Saved recipes</Link>
-        </li>
-        <li>
-          <Link to="/">Settings</Link>
-        </li>
+        {navbarItems.map(item => (
+          <NavbarItem link={item.link} text={item.text} />
+        ))}
       </ul>
     </div>
   );
