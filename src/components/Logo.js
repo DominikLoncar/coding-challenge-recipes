@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Logo() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-midnight-blue text-white">
       <div>
         <strong>Meal Deal</strong>
       </div>
