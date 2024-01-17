@@ -14,6 +14,7 @@ module.exports = {
         porcelain: '#F4F5F6',
         aluminium: '#AAB1BB',
         'dark-green': '#089B12',
+        'light-green': '#15C421',
       },
       fontFamily: {
         'dm-sans': ['"DM Sans"', 'sans-serif'],
