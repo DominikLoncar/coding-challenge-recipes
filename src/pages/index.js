@@ -9,7 +9,7 @@ const IndexPage = () => {
           <Logo />
           <Navbar />
         </div>
-        <div className="col-start-2 col-end-7">
+        <div className="col-start-2 col-end-7 mt-12 mx-36">
           <TitleAndSearchBar />
           <Hero />
         </div>
