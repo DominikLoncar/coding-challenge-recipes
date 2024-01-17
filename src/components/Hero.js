@@ -25,10 +25,12 @@ export default function Hero() {
 
 export function HeroImg() {
   return (
-    <StaticImage
-      src="../images/hero-img.png"
-      alt="A meal representation for the hero section"
-      placeholder="blurred"
-    />
+    <div className="max-w-96">
+      <StaticImage
+        src="../images/hero-img.png"
+        alt="A meal representation for the hero section"
+        placeholder="blurred"
+      />
+    </div>
   );
 }
