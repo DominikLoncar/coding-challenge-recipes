@@ -11,7 +11,7 @@ export default function Card({
     <div className="grid grid-cols-3">
       <CardImg />
       <div className="col-start-2 col-end-4 bg-slate-400 ">
-        <h3>{title}</h3>
+        <h3 className="text-xl font-dm-sans text-midnight-blue">{title}</h3>
         <div>
           <div>{completionTimeInMinutes}</div> <div>{difficulty}</div>
         </div>
