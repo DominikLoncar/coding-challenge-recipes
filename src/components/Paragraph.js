@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function Paragraph() {
-  return <div>Paragraph</div>;
+export default function Paragraph({ children }) {
+  return <div>{children}</div>;
 }
