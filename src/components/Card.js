@@ -8,15 +8,18 @@ export default function Card({
   tags = [],
 }) {
   return (
-    <div>
-      <h3>{title}</h3>
-      <div>
-        <div>{completionTimeInMinutes}</div> <div>{difficulty}</div>
-      </div>
-      <div>
-        {tags.map(tag => (
-          <span>{tag}</span>
-        ))}
+    <div className="grid grid-cols-3">
+      <CardImg />
+      <div className="col-start-2 col-end-4 bg-slate-400 ">
+        <h3>{title}</h3>
+        <div>
+          <div>{completionTimeInMinutes}</div> <div>{difficulty}</div>
+        </div>
+        <div>
+          {tags.map(tag => (
+            <span>{tag}</span>
+          ))}
+        </div>
       </div>
     </div>
   );
@@ -24,7 +27,7 @@ export default function Card({
 
 export function CardImg() {
   return (
-    <div className="max-w-96">
+    <div className="max-w-32">
       <StaticImage
         src="../images/peanut-butter-cheesecake.png"
         alt="Meal"
