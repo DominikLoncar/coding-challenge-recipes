@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 export default function Hero() {
   return (
     <div>
-      <div className="grid grid-cols-2 bg-black-haze rounded-lg px-12 pt-10 pb-12 mt-10 mb-40">
+      <div className="md:grid grid-cols-2 bg-black-haze rounded-lg px-12 pt-10 pb-12 mt-10 mb-40">
         <div>
           <Title>
             <strong>
@@ -25,7 +25,7 @@ export default function Hero() {
 
 export function HeroImg() {
   return (
-    <div className="max-w-96 absolute right-44 -mt-10">
+    <div className="-mt-28 md:mt-0 max-w-56 sm:max-w-80 md:max-w-56 lg:max-w-96 absolute right-0 md:right-8 xl:right-20 2xl:right-44 -mt-10">
       <StaticImage
         src="../images/hero-img.png"
         alt="A meal representation for the hero section"
