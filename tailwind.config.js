@@ -16,6 +16,8 @@ module.exports = {
         aluminium: '#AAB1BB',
         'dark-green': '#089B12',
         'light-green': '#15C421',
+        'light-blue': '#E6EEFE',
+        'dark-blue': '#2851A3',
       },
       fontFamily: {
         'dm-sans': ['"DM Sans"', 'sans-serif'],
