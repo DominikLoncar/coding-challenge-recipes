@@ -59,7 +59,7 @@ export default function SearchBar({
             <div
               ref={emptyDivRef}
               onMouseDown={handleEmptyDivInteraction}
-              className="bg-gray h-32 mt-2 min-w-64 ml-0 rounded-lg absolute z-50"
+              className="bg-white border-2 border-light-gray shadow-lg h-32 mt-2 min-w-64 ml-0 rounded-lg absolute z-50"
             ></div>
           )}
         </div>
