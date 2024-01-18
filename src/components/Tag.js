@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function Tag() {
-  return <div>Tag</div>;
+export default function Tag({ name }) {
+  return <div>{name}</div>;
 }
