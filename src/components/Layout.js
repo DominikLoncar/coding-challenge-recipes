@@ -1,9 +1,10 @@
 import React from 'react';
-import { Logo, Navbar } from './index';
+import { Logo, MobileNavbar, Navbar } from './index';
 
 export default function Layout({ children }) {
   return (
     <main>
+      <MobileNavbar />
       <div className="md:grid md:grid-cols-3  xl:grid-cols-6 h-full">
         <div className="hidden md:block">
           <Logo />
