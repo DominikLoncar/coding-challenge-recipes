@@ -5,6 +5,8 @@ import {
   formatRecipeDifficulty,
 } from '../utils/calculations';
 import Tag from './Tag';
+import { FaClock } from 'react-icons/fa6';
+import { BiSolidChart } from 'react-icons/bi';
 
 export default function Card({
   title = 'Lorem Ipsum',
@@ -19,9 +21,15 @@ export default function Card({
         <h3 className="text-xl font-dm-sans font-medium text-midnight-blue">
           {title}
         </h3>
-        <div className="text-river-bed">
-          <div>{formatCompletionTime(completionTimeInMinutes)}</div>{' '}
-          <div>{formatRecipeDifficulty(difficulty)}</div>
+        <div className="text-river-bed flex gap-6">
+          <div className="flex gap-2 items-center">
+            <FaClock size={16} color="#AAB1BB" />
+            <span>{formatCompletionTime(completionTimeInMinutes)}</span>
+          </div>
+          <div className="flex gap-2 items-center">
+            <BiSolidChart size={20} color="#AAB1BB" />
+            <span>{formatRecipeDifficulty(difficulty)}</span>
+          </div>
         </div>
         <div>
           {tags.map(tag => (
