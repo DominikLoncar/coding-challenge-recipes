@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 export default function Logo() {
   return (
-    <div className="bg-midnight-blue text-white rounded-lg m-2 px-4 pl-8 py-8">
+    <div className="bg-midnight-blue text-white rounded-lg m-0 mb-2 md:m-2 px-4 pl-8 py-8 md:mx-2 md:mt-2">
       <div className="flex gap-4 items-center">
         <LogoImg />
         <div>
