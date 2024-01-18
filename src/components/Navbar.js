@@ -39,7 +39,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="bg-light-gray text-dark-gray h-full navbar">
+    <div className="navbar bg-light-gray text-dark-gray h-full rounded-lg m-2">
       <ul className="flex flex-col gap-6 pt-8 h-full">
         {navbarItems.map(item => (
           <NavbarItem link={item.link} text={item.text}>
