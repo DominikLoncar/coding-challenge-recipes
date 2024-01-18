@@ -4,8 +4,8 @@ import { Logo, Navbar } from './index';
 export default function Layout({ children }) {
   return (
     <main>
-      <div className="lg:grid grid-cols-6 h-full">
-        <div className="hidden lg:block">
+      <div className="md:grid md:grid-cols-3  xl:grid-cols-6 h-full">
+        <div className="hidden md:block">
           <Logo />
           <Navbar />
         </div>
