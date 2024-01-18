@@ -2,6 +2,7 @@ export { default as Layout } from './Layout';
 export { default as Logo } from './Logo';
 export { default as Navbar } from './Navbar';
 export { default as NavbarItem } from './NavbarItem';
+export { default as MobileNavbar } from './MobileNavbar';
 export { default as Title } from './Title';
 export { default as Subtitle } from './Subtitle';
 export { default as SearchBar } from './SearchBar';
