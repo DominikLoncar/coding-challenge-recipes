@@ -38,7 +38,7 @@ export default function SearchBar({
     setInputFocused(false);
   };
   return (
-    <div className=" w-full">
+    <div className=" w-full font-dm-sans">
       <div className="m-0 p-0 w-full">
         <div className="flex items-center">
           <input
