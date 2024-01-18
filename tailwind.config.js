@@ -10,6 +10,7 @@ module.exports = {
         gray: '#AAB1BB',
         'light-gray': '#F4F5F6',
         'dark-gray': '#647181',
+        'river-bed': '#44505F',
         'midnight-blue': '#080F1D',
         porcelain: '#F4F5F6',
         aluminium: '#AAB1BB',
