@@ -15,7 +15,7 @@ export default function Hero() {
             </strong>
           </Title>
           <div className="my-5" />
-          <Button text="View Recipe" />
+          <Button text="View Recipe" link="/recipes" />
         </div>
         <HeroImg />
       </div>
