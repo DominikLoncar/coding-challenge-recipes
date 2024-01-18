@@ -1,6 +1,9 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import { formatCompletionTime } from '../utils/calculations';
+import {
+  formatCompletionTime,
+  formatRecipeDifficulty,
+} from '../utils/calculations';
 
 export default function Card({
   title = 'Lorem Ipsum',
@@ -8,24 +11,6 @@ export default function Card({
   difficulty = 1,
   tags = [],
 }) {
-  let difficultyFormatted = '';
-  switch (difficulty) {
-    case 1:
-      difficultyFormatted = 'Easy';
-      break;
-    case 2:
-      difficultyFormatted = 'Intermediate';
-      break;
-    case 3:
-      difficultyFormatted = 'Hard';
-      break;
-    case 4:
-      difficultyFormatted = 'Super Hard';
-      break;
-    default:
-      difficultyFormatted = 'Easy';
-  }
-
   return (
     <div className="grid grid-cols-3 font-dm-sans">
       <CardImg />
@@ -33,7 +18,7 @@ export default function Card({
         <h3 className="text-xl font-dm-sans text-midnight-blue">{title}</h3>
         <div className="text-river-bed">
           <div>{formatCompletionTime(completionTimeInMinutes)}</div>{' '}
-          <div>{difficultyFormatted}</div>
+          <div>{formatRecipeDifficulty(difficulty)}</div>
         </div>
         <div>
           {tags.map(tag => (
