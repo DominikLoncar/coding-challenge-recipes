@@ -22,6 +22,7 @@ module.exports = {
         'dark-blue': '#2851A3',
         ghost: '#C7CBD1',
         raven: '#727E8D',
+        'black-haze': '#F1F3F3',
       },
       fontFamily: {
         'dm-sans': ['"DM Sans"', 'sans-serif'],
