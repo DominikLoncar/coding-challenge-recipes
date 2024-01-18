@@ -20,13 +20,31 @@ export default function Card({
     }m`;
   }
 
+  let difficultyFormatted = '';
+  switch (difficulty) {
+    case 1:
+      difficultyFormatted = 'Easy';
+      break;
+    case 2:
+      difficultyFormatted = 'Intermediate';
+      break;
+    case 3:
+      difficultyFormatted = 'Hard';
+      break;
+    case 4:
+      difficultyFormatted = 'Super Hard';
+      break;
+    default:
+      difficultyFormatted = 'Easy';
+  }
+
   return (
-    <div className="grid grid-cols-3">
+    <div className="grid grid-cols-3 font-dm-sans">
       <CardImg />
       <div className="col-start-2 col-end-4 bg-slate-400 ">
         <h3 className="text-xl font-dm-sans text-midnight-blue">{title}</h3>
-        <div>
-          <div>{completionTimeFormatted}</div> <div>{difficulty}</div>
+        <div className="text-river-bed">
+          <div>{completionTimeFormatted}</div> <div>{difficultyFormatted}</div>
         </div>
         <div>
           {tags.map(tag => (
