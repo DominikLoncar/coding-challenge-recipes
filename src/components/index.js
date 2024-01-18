@@ -12,3 +12,4 @@ export { default as FilterButton } from './FilterButton';
 export { default as Hero } from './Hero';
 export { default as Card } from './Card';
 export { default as Tag } from './Tag';
+export { default as Paragraph } from './Paragraph';
