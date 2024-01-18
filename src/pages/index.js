@@ -6,6 +6,7 @@ import {
   Hero,
   Card,
   Subtitle,
+  ArrowButton,
 } from '../components/index';
 
 const IndexPage = () => {
@@ -20,6 +21,7 @@ const IndexPage = () => {
           <TitleAndSearchBar />
           <Hero />
           <Subtitle>New Recipes</Subtitle>
+          <ArrowButton />
           <div className="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-6">
             <Card tags={['Vegetarian', 'French']} difficulty={2} />
             <Card tags={['Vegetarian', 'French']} difficulty={2} />
