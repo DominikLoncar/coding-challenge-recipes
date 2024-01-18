@@ -6,6 +6,7 @@ export { default as Subtitle } from './Subtitle';
 export { default as SearchBar } from './SearchBar';
 export { default as TitleAndSearchBar } from './TitleAndSearchBar';
 export { default as Button } from './Button';
+export { default as ArrowButton } from './ArrowButton';
 export { default as Hero } from './Hero';
 export { default as Card } from './Card';
 export { default as Tag } from './Tag';
