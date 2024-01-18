@@ -4,6 +4,7 @@ import {
   formatCompletionTime,
   formatRecipeDifficulty,
 } from '../utils/calculations';
+import Tag from './Tag';
 
 export default function Card({
   title = 'Lorem Ipsum',
@@ -22,7 +23,7 @@ export default function Card({
         </div>
         <div>
           {tags.map(tag => (
-            <span>{tag}</span>
+            <Tag>{tag}</Tag>
           ))}
         </div>
       </div>
