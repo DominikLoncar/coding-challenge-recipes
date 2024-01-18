@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
+import { FilterButton } from './index';
 
 export default function SearchBar({
   placeholder = 'Search for any recipes...',
@@ -60,7 +61,9 @@ export default function SearchBar({
               ref={emptyDivRef}
               onMouseDown={handleEmptyDivInteraction}
               className="bg-white border-2 border-light-gray shadow-lg h-32 mt-2 min-w-64 ml-0 rounded-lg absolute z-50"
-            ></div>
+            >
+              <FilterButton />
+            </div>
           )}
         </div>
       </div>
