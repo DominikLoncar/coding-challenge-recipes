@@ -12,7 +12,7 @@ export default function SearchBar({
         type="text"
         id="search-recipes"
         placeholder={placeholder}
-        className="rounded-md border-[1px] border-ghost px-4 py-2 pr-10 text-aluminium w-full focus:border-dark-green focus:border-2 hover:border-green outline-none"
+        className="rounded-md border-[1px] border-ghost px-4 py-2 pr-10 text-midnight-blue w-full focus:border-dark-green focus:border-2 focus:shadow-inner hover:border-green outline-none"
         onClick={handleInput}
       />
       <div className="-ml-8 pointer-events-none">
