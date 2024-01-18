@@ -12,7 +12,7 @@ import '../styles/navbar.css';
 export default function Navbar() {
   const navbarItems = [
     {
-      link: 'homepage',
+      link: '',
       text: 'Homepage',
       iconName: 'home',
     },
