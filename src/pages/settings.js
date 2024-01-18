@@ -1,10 +1,10 @@
 import React from 'react';
 import { Layout, Title } from '../components';
 
-export default function Community() {
+export default function Settings() {
   return (
     <Layout>
-      <Title>Community</Title>
+      <Title>Settings</Title>
     </Layout>
   );
 }
