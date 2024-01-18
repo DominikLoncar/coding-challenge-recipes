@@ -13,9 +13,9 @@ export default function Card({
   tags = [],
 }) {
   return (
-    <div className="grid grid-cols-3 font-dm-sans">
+    <div className="grid grid-cols-3 font-dm-sans border-2 rounded-lg border-athens-gray">
       <CardImg />
-      <div className="col-start-2 col-end-4 bg-slate-400 ">
+      <div className="col-start-2 col-end-4 bg-slate-400 p-4 rounded-tr-lg rounded-br-lg">
         <h3 className="text-xl font-dm-sans text-midnight-blue">{title}</h3>
         <div className="text-river-bed">
           <div>{formatCompletionTime(completionTimeInMinutes)}</div>{' '}
@@ -33,11 +33,12 @@ export default function Card({
 
 export function CardImg() {
   return (
-    <div className="max-w-32">
+    <div className="max-w-32 rounded-tl-lg rounded-bl-lg">
       <StaticImage
         src="../images/peanut-butter-cheesecake.png"
         alt="Meal"
         placeholder="blurred"
+        className="rounded-tl-lg rounded-bl-lg"
       />
     </div>
   );
