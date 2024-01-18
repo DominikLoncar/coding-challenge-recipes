@@ -72,7 +72,7 @@ export default function SearchBar({
               ref={emptyDivRef}
               className="bg-white border-2 border-light-gray shadow-lg mt-2 min-w-64 ml-0 rounded-lg absolute z-50"
             >
-              <div className="flex">
+              <div className="flex flex-wrap">
                 <FilterButton name="Recipes" />
                 <FilterButton name="Category" />
                 <FilterButton name="Area" />
