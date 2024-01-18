@@ -1,5 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import { formatCompletionTime } from '../utils/calculations';
 
 export default function Card({
   title = 'Lorem Ipsum',
@@ -7,19 +8,6 @@ export default function Card({
   difficulty = 1,
   tags = [],
 }) {
-  let completionTimeFormatted = '';
-
-  if (completionTimeInMinutes >= 60) {
-    completionTimeFormatted = `${Math.floor(completionTimeInMinutes / 60)}h`;
-  }
-  if (completionTimeInMinutes < 60) {
-    completionTimeFormatted = `${completionTimeInMinutes}m`;
-  } else if (completionTimeInMinutes % 60 > 0) {
-    completionTimeFormatted = `${completionTimeFormatted} ${
-      completionTimeInMinutes % 60
-    }m`;
-  }
-
   let difficultyFormatted = '';
   switch (difficulty) {
     case 1:
@@ -44,7 +32,8 @@ export default function Card({
       <div className="col-start-2 col-end-4 bg-slate-400 ">
         <h3 className="text-xl font-dm-sans text-midnight-blue">{title}</h3>
         <div className="text-river-bed">
-          <div>{completionTimeFormatted}</div> <div>{difficultyFormatted}</div>
+          <div>{formatCompletionTime(completionTimeInMinutes)}</div>{' '}
+          <div>{difficultyFormatted}</div>
         </div>
         <div>
           {tags.map(tag => (
