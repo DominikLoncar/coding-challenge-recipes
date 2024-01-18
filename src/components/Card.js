@@ -13,7 +13,7 @@ export default function Card({
   tags = [],
 }) {
   return (
-    <div className="grid grid-cols-3 font-dm-sans border-2 rounded-lg border-athens-gray">
+    <div className="grid grid-cols-3 font-dm-sans border-[1px] rounded-lg border-athens-gray">
       <CardImg />
       <div className="col-start-2 col-end-4 p-4 rounded-tr-lg rounded-br-lg">
         <h3 className="text-xl font-dm-sans text-midnight-blue">{title}</h3>

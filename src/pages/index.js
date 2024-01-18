@@ -18,7 +18,7 @@ const IndexPage = () => {
         <div className="col-start-2 col-end-7 mt-12 mx-36">
           <TitleAndSearchBar />
           <Hero />
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 gap-6">
             <Card tags={['Vegetarian', 'French']} difficulty={2} />
             <Card tags={['Vegetarian', 'French']} difficulty={2} />
             <Card tags={['Vegetarian', 'French']} difficulty={2} />
