@@ -20,6 +20,8 @@ module.exports = {
         'dark-green': '#089B12',
         'light-blue': '#E6EEFE',
         'dark-blue': '#2851A3',
+        ghost: '#C7CBD1',
+        raven: '#727E8D',
       },
       fontFamily: {
         'dm-sans': ['"DM Sans"', 'sans-serif'],
