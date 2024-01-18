@@ -3,7 +3,7 @@ import { FaArrowRight } from 'react-icons/fa6';
 
 export default function ArrowButton({ text = 'Button', link = '' }) {
   return (
-    <button className="font-dm-sans font-medium text-green text-lg px-6 py-2 rounded-md hover:opacity-80 transition-hover transition-opacity">
+    <button className="font-dm-sans font-medium text-green text-lg pl-6 px-0 py-2 rounded-md hover:opacity-80 transition-hover transition-opacity">
       <div className="flex gap-2 items-center">
         <span>{text}</span> <FaArrowRight />
       </div>
