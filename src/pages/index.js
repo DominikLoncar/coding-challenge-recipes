@@ -17,7 +17,11 @@ const IndexPage = () => {
       <Hero />
       <div className="flex flex-auto">
         <Subtitle>New Recipes</Subtitle>
-        <ArrowButton className="ml-auto" text="See all recipes" />
+        <ArrowButton
+          className="ml-auto"
+          text="See all recipes"
+          link="/recipes"
+        />
       </div>
       <div className="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-6">
         <Card
