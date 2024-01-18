@@ -24,7 +24,7 @@ export function formatRecipeDifficulty(recipeDifficulty) {
       recipeDifficultyFormatted = 'Intermediate';
       break;
     case 3:
-      recipeDifficultyFormatted = 'Hard';
+      recipeDifficultyFormatted = 'Advanced';
       break;
     case 4:
       recipeDifficultyFormatted = 'Super Hard';

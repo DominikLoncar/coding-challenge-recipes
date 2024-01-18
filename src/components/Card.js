@@ -17,7 +17,7 @@ export default function Card({
   return (
     <div className="grid grid-cols-3 font-dm-sans border-[1px] rounded-lg border-athens-gray">
       <CardImg />
-      <div className="col-start-2 col-end-4 p-4 rounded-tr-lg rounded-br-lg flex flex-col">
+      <div className="col-start-2 col-end-4 p-4 pr-0 rounded-tr-lg rounded-br-lg flex flex-col">
         <h3 className="text-xl font-dm-sans font-medium text-midnight-blue">
           {title}
         </h3>
